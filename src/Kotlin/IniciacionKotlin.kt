@@ -9,7 +9,7 @@ fun main() {
     println(3 + 3)
 
 
-    val nombre: String = "Juan"
+    val nombre: String = "Juan" // CONSTANTE POR ASI DECIRLO
     val edad = 12
 
     println(nombre)
@@ -27,9 +27,9 @@ fun main() {
 
     //CUENTAS:
     // TODO ESTO SE PUEDE HACER CON TODO TIPO DE OPERADORES
-    var a = 1+1
-    var b = a+1
-    var c = b+a
+    val a = 1+1
+    val b = a+1
+    val c = b+a
     println(c)
 
     val myname : String = "Juan"
@@ -106,4 +106,11 @@ fun main() {
     }
 
     //TODO IMPORTANTE PARA HEREDAR SE HACE CON OPEN Al PRINCIPIO
+    // fname: String
+
+    // TODO DEVOLUCION DE UNA FUNCION
+    fun sayArray() : String{
+        return "hello world"
+    }
+    // TODO ACCEDER AL CONTENIDO DE UNA VARIABLE CON $
 }

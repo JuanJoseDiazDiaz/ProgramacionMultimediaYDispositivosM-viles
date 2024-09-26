@@ -10,6 +10,7 @@ fun main(args: Array<String>) {
     // loopWhile() -> While
     // listStudent() -> Listas
     // listStudent2() -> Listas
+    // listStudent3()
 }
 
 fun sendMessage() {
@@ -87,9 +88,22 @@ fun listStudent() {
 }
 
 fun listStudent2() {
-    var listStudent : ArrayList<String> = arrayListOf("juan", "jose", "Marta", "Sergio", "pepe")
+    var listStudent: ArrayList<String> = arrayListOf("juan", "jose", "Marta", "Sergio", "pepe")
     listStudent.add("Adela")
     println(listStudent.sorted().toString())
     listStudent.remove(listStudent[4])
     println(listStudent.toString())
+}
+
+fun listStudent3() {
+    println("Estos son los elementos de la lista")
+    var listStudent = mutableListOf("juan", "jose", "Marta", "Sergio", "pepe")
+    for ((item, elemet) in listStudent.withIndex()) {
+        when {
+            item == listStudent.lastIndex - 1 -> println("${listStudent[item]} y")
+            item != listStudent.lastIndex -> println("${listStudent[item]}, ")
+            else -> println("$elemet")
+        }
+    }
+
 }

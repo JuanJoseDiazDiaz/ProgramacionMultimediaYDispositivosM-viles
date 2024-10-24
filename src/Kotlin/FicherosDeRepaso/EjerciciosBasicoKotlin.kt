@@ -1,6 +1,6 @@
 @file:Suppress("DUPLICATE_LABEL_IN_WHEN")
 
-package Kotlin
+package Kotlin.FicherosDeRepaso
 
 fun main(args: Array<String>) {
     // sendMessage() -> Declaración y Uso de Variables

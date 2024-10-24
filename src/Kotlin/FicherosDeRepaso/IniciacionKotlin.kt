@@ -1,4 +1,4 @@
-package Kotlin
+package Kotlin.FicherosDeRepaso
 
 fun main() {
     println("hola mundo")
